@@ -92,14 +92,13 @@ button:hover {
 .match {
   display: flex;
   justify-content: center;
-  width: 541px;
   margin-bottom: 3rem;
 }
 .match img {
   width: 70%;
 }
 
-h2 {
+.h2{
   color: white;
 }
 
