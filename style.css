@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  z-index: 99;
 }
 .container {
   display: flex;
@@ -91,11 +92,23 @@ button:hover {
 .match {
   display: flex;
   justify-content: center;
+  width: 541px;
+  margin-bottom: 3rem;
 }
 .match img {
   width: 70%;
 }
-/*modal*/
+
+h2 {
+  color: white;
+}
+
+.modal p {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
 .modal-container {
   display: none;
 }
